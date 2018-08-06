@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Application</title>
+  </head>
+
+  <body>
+
+    {# url_for("Name of the function") #}
+    <a href="{{url_for("index")}}">INDEX.HTML</a>
+    <p></p>
+    <a href="{{url_for("info")}}">INFO.HTML</a>
+
+    {% block content %}
+
+    {% endblock %}
+
+  </body>
+
+</html>
